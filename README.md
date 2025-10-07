@@ -1,1 +1,0 @@
-# knadimid_sec1
