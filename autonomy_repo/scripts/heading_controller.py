@@ -9,15 +9,15 @@ class HeadingController(BaseHeadingController):
     def __init__(self):
         super().__init__('heading_controller')
         self.declare_parameter('kp', 2.0)
-        self.declare_parameter('velocity', 1.5)
+        #self.declare_parameter('velocity', 1.5)
         
     @property
     def kp(self) -> float:
         return self.get_parameter('kp').value
     
-    @property
-    def velocity(self) -> float:
-        return self.get_parameter('velocity').value
+    #@property
+    #def velocity(self) -> float:
+    #    return self.get_parameter('velocity').value
 
     def compute_control_with_goal(self, state: TurtleBotState, goal: TurtleBotState) -> TurtleBotControl:
         err = wrap_angle(goal.theta - state.theta)
@@ -25,10 +25,10 @@ class HeadingController(BaseHeadingController):
         control.omega = self.kp * err
     
         # Calculate distance to goal
-        distance = np.sqrt((goal.x - state.x)**2 + (goal.y - state.y)**2)
+        #distance = np.sqrt((goal.x - state.x)**2 + (goal.y - state.y)**2)
 
         # Set linear velocity
-        control.v = self.velocity # Set linear velocity
+        #control.v = self.velocity # Set linear velocity
 
         return control
 
