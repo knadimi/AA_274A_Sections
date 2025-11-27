@@ -1,0 +1,103 @@
+[0.315s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.315s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x79236bc25540>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x79236be2ebf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x79236be2ebf0>>, mixin_verb=('build',))
+[0.684s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.685s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.685s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.685s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.705s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'autonomy_repo'
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.705s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'cmake_target' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'cmake_clean_first' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'cmake_force_configure' from command line to 'False'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'ament_cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.740s] Level 5:colcon.colcon_core.verb:set package 'autonomy_repo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.740s] DEBUG:colcon.colcon_core.verb:Building package 'autonomy_repo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/build/autonomy_repo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo', 'merge_install': False, 'path': '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo', 'symlink_install': False, 'test_result_base': None}
+[0.741s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.751s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.752s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo' with build type 'ament_cmake'
+[0.752s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo'
+[0.761s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.761s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.761s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo -DCMAKE_INSTALL_PREFIX=/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo
+[1.949s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo -DCMAKE_INSTALL_PREFIX=/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo
+[1.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/build/autonomy_repo -- -j8 -l8
+[1.991s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/build/autonomy_repo -- -j8 -l8
+[2.001s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/build/autonomy_repo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/build/autonomy_repo
+[2.016s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonomy_repo)
+[2.017s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/build/autonomy_repo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/build/autonomy_repo
+[2.025s] Level 1:colcon.colcon_core.environment:checking '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo' for CMake module files
+[2.025s] Level 1:colcon.colcon_core.environment:checking '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo' for CMake config files
+[2.025s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomy_repo', 'cmake_prefix_path')
+[2.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/autonomy_repo/hook/cmake_prefix_path.ps1'
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/autonomy_repo/hook/cmake_prefix_path.dsv'
+[2.027s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/autonomy_repo/hook/cmake_prefix_path.sh'
+[2.028s] Level 1:colcon.colcon_core.environment:checking '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/lib'
+[2.028s] Level 1:colcon.colcon_core.environment:checking '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/bin'
+[2.028s] Level 1:colcon.colcon_core.environment:checking '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/lib/pkgconfig/autonomy_repo.pc'
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/lib/python3.10/site-packages'
+[2.030s] Level 1:colcon.colcon_core.environment:checking '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/bin'
+[2.030s] INFO:colcon.colcon_core.shell:Creating package script '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/autonomy_repo/package.ps1'
+[2.031s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/autonomy_repo/package.dsv'
+[2.032s] INFO:colcon.colcon_core.shell:Creating package script '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/autonomy_repo/package.sh'
+[2.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/autonomy_repo/package.bash'
+[2.033s] INFO:colcon.colcon_core.shell:Creating package script '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/autonomy_repo/package.zsh'
+[2.034s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/colcon-core/packages/autonomy_repo)
+[2.035s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autonomy_repo)
+[2.035s] Level 1:colcon.colcon_core.environment:checking '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo' for CMake module files
+[2.036s] Level 1:colcon.colcon_core.environment:checking '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo' for CMake config files
+[2.036s] Level 1:colcon.colcon_core.shell:create_environment_hook('autonomy_repo', 'cmake_prefix_path')
+[2.036s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/autonomy_repo/hook/cmake_prefix_path.ps1'
+[2.036s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/autonomy_repo/hook/cmake_prefix_path.dsv'
+[2.037s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/autonomy_repo/hook/cmake_prefix_path.sh'
+[2.037s] Level 1:colcon.colcon_core.environment:checking '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/lib'
+[2.037s] Level 1:colcon.colcon_core.environment:checking '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/bin'
+[2.037s] Level 1:colcon.colcon_core.environment:checking '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/lib/pkgconfig/autonomy_repo.pc'
+[2.037s] Level 1:colcon.colcon_core.environment:checking '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/lib/python3.10/site-packages'
+[2.038s] Level 1:colcon.colcon_core.environment:checking '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/bin'
+[2.038s] INFO:colcon.colcon_core.shell:Creating package script '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/autonomy_repo/package.ps1'
+[2.038s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/autonomy_repo/package.dsv'
+[2.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/autonomy_repo/package.sh'
+[2.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/autonomy_repo/package.bash'
+[2.039s] INFO:colcon.colcon_core.shell:Creating package script '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/autonomy_repo/package.zsh'
+[2.039s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/autonomy_repo/share/colcon-core/packages/autonomy_repo)
+[2.040s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.040s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.040s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.041s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.054s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.054s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.054s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.055s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.058s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[2.059s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.060s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/local_setup.ps1'
+[2.062s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/_local_setup_util_ps1.py'
+[2.065s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/setup.ps1'
+[2.067s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/local_setup.sh'
+[2.068s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/_local_setup_util_sh.py'
+[2.068s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/setup.sh'
+[2.070s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/local_setup.bash'
+[2.071s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/setup.bash'
+[2.073s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/local_setup.zsh'
+[2.074s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/knadimid/autonomy_ws/src/AA_274A_Sections/autonomy_repo/install/setup.zsh'
